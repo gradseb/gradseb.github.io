@@ -23,6 +23,14 @@ nav{
 /* wybierz tylko te li, które mają wśród prdzodków .navUl */
 .navUl li{
     margin-left:10px;
+}
 
+.headerBody{
+    border: 2px dashed rgb(119, 22, 22);
+    text-align: center;
+
+}
+img{
+    max-width: 100%;
 
 }
