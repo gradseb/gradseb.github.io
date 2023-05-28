@@ -1,3 +1,28 @@
+
+
 body{
     background: rgba(27, 145, 23, 0.747);
+}
+
+nav{
+    border: 2px dashed rgb(51, 22, 119);
+    border-style:dashed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 15px;
+}
+.navUl{
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+/* wybierz tylko te li, które mają wśród prdzodków .navUl */
+.navUl li{
+    margin-left:10px;
+
+
 }
