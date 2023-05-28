@@ -4,7 +4,8 @@ html{
 }
 body{
     background: rgba(27, 145, 23, 0.726);
-    font-family: 'Encode Sans Condensed', sans-serif;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 nav{
@@ -50,8 +51,8 @@ h2{
 }
 main, article{
 max-width: 1200px;
-margin:auto;
-padding: 3rem;
+margin:1px;
+padding: 1rem;
 }
 footer{
     background-color: black;
@@ -68,6 +69,26 @@ a{
 #Start, #Projekty, #Kontakt{
     padding-top: calc(1.5rem+30px);
 }
-
+/* wyświetlanie border przy rozdzielczosci mniejszej niz 768px */
+label, #toggler{
+    display:none;
+}
 /* hamburger */
-
+@media (max-width:768px) {
+    .navUl{
+        /*border: 2px dashed blue;*/
+        display: none;
+        position: absolute;
+        right: 0;
+        top: calc(30px + 1.5rem);
+        padding: 1rem 1rem 1rem 0;
+        background: rgb(27, 145, 23);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    label{
+        display: flex;
+    }
+    #toggler:checked ~ .navUl{
+        display: block;
+    }
+}
