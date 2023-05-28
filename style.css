@@ -47,5 +47,16 @@ border: 2px dashed red;
 max-width: 1200px;
 margin:auto;
 padding: 3rem;
-
+}
+footer{
+    background-color: black;
+    padding: 2vw 5vw;
+    color: white;
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
