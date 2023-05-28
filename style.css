@@ -6,8 +6,6 @@ body{
 }
 
 nav{
-    border: 2px dashed rgb(51, 22, 119);
-    border-style:dashed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +25,6 @@ nav{
 }
 
 .headerBody{
-    border: 2px dashed rgb(119, 22, 22);
     text-align: center;
 }
 img{
@@ -40,6 +37,5 @@ p{
     margin-top: 0;
 }
 .headerBody p{
-    border:3px dashed red;
     padding: 0 15%;
 }
