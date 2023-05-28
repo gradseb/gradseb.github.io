@@ -12,11 +12,14 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:5px 5px;
-    position: sticky;
-    top: 0;
+    padding:1px 20px;
+    position: fixed;
+    width: calc(100% - 40px);
     background: rgb(27, 145, 23);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#Start, #Projekty, #Kontakt{
+    padding-top: calc(1rem + 30px);
 }
 .navUl{
     
@@ -28,7 +31,7 @@ nav{
 }
 /* wybiera tylko te li, które mają wśród przodków .navUl */
 .navUl li{
-    margin-left:10px;
+    margin-left:20px;
 }
 
 .headerBody{
@@ -51,7 +54,7 @@ h2{
 }
 main, article{
 max-width: 1200px;
-margin:1px;
+margin:auto;
 padding: 1rem;
 }
 footer{
@@ -66,15 +69,13 @@ a{
     text-decoration: none;
     color: inherit;
 }
-#Start, #Projekty, #Kontakt{
-    padding-top: calc(1.5rem+30px);
-}
+
 /* wyświetlanie border przy rozdzielczosci mniejszej niz 768px */
 label, #toggler{
     display:none;
 }
 /* hamburger */
-@media (max-width:768px) {
+@media (max-width:640px) {
     .navUl{
         /*border: 2px dashed blue;*/
         display: none;
