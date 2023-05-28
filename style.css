@@ -2,6 +2,7 @@
 
 body{
     background: rgba(27, 145, 23, 0.747);
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 nav{
@@ -28,9 +29,17 @@ nav{
 .headerBody{
     border: 2px dashed rgb(119, 22, 22);
     text-align: center;
-
 }
 img{
-    max-width: 100%;
-
+    max-width: 80%;
+}
+h1{
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+}
+.headerBody p{
+    border:3px dashed red;
+    padding: 0 15%;
 }
