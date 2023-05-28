@@ -39,3 +39,13 @@ p{
 .headerBody p{
     padding: 0 15%;
 }
+h2{
+    margin-bottom: 0;
+}
+main, article{
+border: 2px dashed red;
+max-width: 1200px;
+margin:auto;
+padding: 3rem;
+
+}
